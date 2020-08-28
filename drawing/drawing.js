@@ -6,7 +6,7 @@ const ctx = canvas.getContext("2d");
 ctx.fillStyle = "blue";
 ctx.fillRect(0, 0, 300, 200)
 
-//create a line
+//draw a line
 ctx.moveTo(0, 0); //starting position (x, y)
 ctx.lineTo(200, 300); //ending position (x, y)
 ctx.strokeStyle = "red"
