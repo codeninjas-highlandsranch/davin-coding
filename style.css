@@ -1,3 +1,14 @@
+body{
+    padding:50px 100px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a{
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 #canvas{
     width: 400px;
     height: 400px;
