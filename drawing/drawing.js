@@ -14,6 +14,12 @@ ctx.stroke() //draw the stroke
 
 //draw a circle
 ctx.beginPath();
-ctx.arc(100, 50, 40, 0, 2 * Math.PI); //(x, y, radius, start angle, end angle)
+ctx.arc(100, 500, 40, 0, 2 * Math.PI); //(x, y, radius, start angle, end angle)
 ctx.strokeStyle = "green"
+ctx.stroke()
+
+//draw another circle
+ctx.beginPath();
+ctx.arc(400, 100, 40, 0, 2 * Math.PI); //(x, y, radius, start angle, end angle)
+ctx.strokeStyle = "red"
 ctx.stroke()
