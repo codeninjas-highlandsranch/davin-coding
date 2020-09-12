@@ -96,7 +96,6 @@ animation: slideLeft 4s ;
      @keyframes slideRight{
          0% {
              transform: translateX(-1500px)
-             
          }
           100%{
               transform: translateX(0);
@@ -181,7 +180,6 @@ animation: slideLeft 4s ;
      font-size: 30px;
      animation: slidedown 2s; 
  }
-    }
     #Drawing{
         position: absolute;
         top: 75%;
@@ -197,8 +195,4 @@ animation: slideLeft 4s ;
         animation: slidedown 2s; 
         font-size: 40px;
     }
-       
-
-
-     
 }
