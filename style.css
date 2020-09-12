@@ -14,35 +14,40 @@ a{
     width: 300px;
     position: absolute;
     top: 25% ;
-    left: 40%;  
+    left: 40%;
+    animation: slidedown 2s;  
 }
 
 #title{
     position: absolute;
     top: 10% ;
     left: 38%;
+    animation: slidedown 2s; 
 }
 #Drawing{
  position: absolute;
- top: 65%;
+ top: 70%;
  left: 40%;
  font-size: 20px;
  color:rgb(12, 11, 11);
+ animation: slidedown 2s; 
 }
 
 .TitleLink{
     /* border:1px solid black; */
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
+    animation: slidedown 2s; 
 }
 
 #link1{
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 40%;
     font-size: 20px;
     color:rgb(0, 0, 0);
+    animation: slidedown 2s; 
 }
 .linktext{
     color:rgb(12, 11, 11);
@@ -62,7 +67,7 @@ a{
     width: 430px;
     left: 1%;
     height: 100;
-    animation: slideRight 2s ;
+    animation: slideRight 3s ;
 }
 
 #ninja{
@@ -71,7 +76,7 @@ width: 430px;
 height: 100;
 top: 50% ;
 left: 1%;
-animation: slideRight 3s ;
+animation: slideRight 4s ;
 }
 #scratch{
     position:  absolute;
@@ -79,14 +84,14 @@ width: 400px;
 height: 100;
 top: 50% ;
 right: 1%;
-animation: slideLeft 3s ;
+animation: slideLeft 4s ;
 }
 #computer{
     position: absolute;
     width: 400px;
     right: 1%;
     height: 100;
-   animation: slideLeft 2s; 
+   animation: slideLeft 3s; 
 }
      @keyframes slideRight{
          0% {
@@ -106,3 +111,94 @@ animation: slideLeft 3s ;
              transform: translateX(0);
          }
     }  
+    #border{
+        height: 200px;
+        width: 327px;
+        position: absolute;
+        top: 23% ;
+        left: 39%;  
+        z-index:-1; 
+        animation: slidedown 2s ; 
+    }
+}  
+@keyframes slideup{
+   0% {
+       transform: translateY(-1500px)
+       
+   }
+    100%{
+        transform: translateY(0);
+    }
+             }
+
+             @keyframes slidedown{
+                0% {
+                    transform: translateY(-1500px)
+                    
+                }
+                 100%{
+                     transform: translateY(0);
+                 }
+                          }
+             
+
+@media (max-width:500px){
+    #html{
+        display:none;
+    }
+    #scratch{
+        display:none; 
+    }
+    #ninja{
+        display:none;
+    }
+    #computer{
+        display:none;
+    }
+    #Green{
+        left:0%;
+    }
+    #dino{
+        left:10%;
+    }
+    #border{
+        left:7%;
+
+    }
+    #link1{
+        position: absolute;
+        top: 65%;
+        left: 10%;
+        font-size: 30px;
+        color:rgb(0, 0, 0);
+        animation: slidedown 2s; 
+    }
+    .TitleLink{
+     /* border:1px solid black; */
+     position: absolute;
+     top: 50%;
+     left: 30%;
+     font-size: 30px;
+     animation: slidedown 2s; 
+ }
+    }
+    #Drawing{
+        position: absolute;
+        top: 75%;
+        left: 10%;
+        font-size: 30px;
+        color:rgb(12, 11, 11);
+        animation: slidedown 2s; 
+       }
+       #title{
+        position: absolute;
+        top: 5% ;
+        left: 20%;
+        animation: slidedown 2s; 
+        font-size: 40px;
+    }
+       
+
+
+     
+}
