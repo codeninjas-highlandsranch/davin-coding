@@ -120,7 +120,7 @@ animation: slideLeft 4s ;
         z-index:-1; 
         animation: slidedown 2s ; 
     }
-}  
+
 @keyframes slideup{
    0% {
        transform: translateY(-1500px)
@@ -162,7 +162,7 @@ animation: slideLeft 4s ;
         left:10%;
     }
     #border{
-        left:7%;
+        left: 7%;
 
     }
     #link1{
