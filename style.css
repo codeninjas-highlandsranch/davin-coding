@@ -24,14 +24,6 @@ a{
     left: 38%;
     animation: slidedown 2s; 
 }
-#Drawing{
- position: absolute;
- top: 72%;
- left: 40%;
- font-size: 20px;
- color:rgb(12, 11, 11);
- animation: slidedown 2s; 
-}
 
 .TitleLink{
     /* border:1px solid black; */
@@ -180,25 +172,19 @@ animation: slideLeft 4s ;
     #link1{
         position: absolute;
         top: 65%;
-        left: 10%;
-        font-size: 30px;
-        color:rgb(0, 0, 0);
-        animation: slidedown 2s; 
+        left: 10%; 
     }
+
     .TitleLink{
      /* border:1px solid black; */
      position: absolute;
      top: 50%;
-     left: 30%;
-     font-size: 30px;
-     animation: slidedown 2s; 
+     margin: auto;
  }
      
        #title{
         position: absolute;
         top: 5% ;
         left: 20%;
-        animation: slidedown 2s; 
-        font-size: 40px;
     }
 }
