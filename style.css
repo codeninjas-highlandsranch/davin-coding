@@ -26,7 +26,7 @@ a{
 }
 #Drawing{
  position: absolute;
- top: 70%;
+ top: 72%;
  left: 40%;
  font-size: 20px;
  color:rgb(12, 11, 11);
@@ -51,7 +51,20 @@ a{
 }
 .linktext{
     color:rgb(12, 11, 11);
-}
+}      
+    .linktext:hover{
+        font-size: 22px;
+         transition: 2s;
+         color:rgb(17, 14, 168);
+         cursor: grab;
+    }
+    #Drawing:hover{
+        font-size: 22px;
+         transition: 2s;
+         color:rgb(17, 14, 168);
+         cursor: grab;
+    }
+ 
 
 #Green{
     position:absolute;
@@ -180,14 +193,7 @@ animation: slideLeft 4s ;
      font-size: 30px;
      animation: slidedown 2s; 
  }
-    #Drawing{
-        position: absolute;
-        top: 75%;
-        left: 10%;
-        font-size: 30px;
-        color:rgb(12, 11, 11);
-        animation: slidedown 2s; 
-       }
+     
        #title{
         position: absolute;
         top: 5% ;
