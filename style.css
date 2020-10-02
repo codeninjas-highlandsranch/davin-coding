@@ -41,22 +41,17 @@ a{
     color:rgb(0, 0, 0);
     animation: slidedown 2s; 
 }
+
 .linktext{
     color:rgb(12, 11, 11);
-}      
-    .linktext:hover{
+}
+
+.linktext:hover{
         font-size: 22px;
          transition: 2s;
          color:rgb(17, 14, 168);
          cursor: grab;
     }
-    #Drawing:hover{
-        font-size: 22px;
-         transition: 2s;
-         color:rgb(17, 14, 168);
-         cursor: grab;
-    }
- 
 
 #Green{
     position:absolute;
@@ -83,6 +78,7 @@ top: 50% ;
 left: 1%;
 animation: slideRight 4s ;
 }
+
 #scratch{
     position:  absolute;
 width: 400px;
@@ -91,6 +87,7 @@ top: 50% ;
 right: 1%;
 animation: slideLeft 4s ;
 }
+
 #computer{
     position: absolute;
     width: 400px;
@@ -98,7 +95,18 @@ animation: slideLeft 4s ;
     height: 100;
    animation: slideLeft 3s; 
 }
-     @keyframes slideRight{
+
+#border{
+    height: 200px;
+    width: 327px;
+    position: absolute;
+    top: 23% ;
+    left: 39%;  
+    z-index:-1; 
+    animation: slidedown 2s ; 
+}
+
+@keyframes slideRight{
          0% {
              transform: translateX(-1500px)
          }
@@ -115,15 +123,7 @@ animation: slideLeft 4s ;
              transform: translateX(0);
          }
     }  
-    #border{
-        height: 200px;
-        width: 327px;
-        position: absolute;
-        top: 23% ;
-        left: 39%;  
-        z-index:-1; 
-        animation: slidedown 2s ; 
-    }
+    
 
 @keyframes slideup{
    0% {
