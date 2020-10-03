@@ -1,8 +1,7 @@
 function startGame() {
     console.log("start game")
     myGameArea.start();
-    myGamePiece = new component(30, 30,"../slimy_boi.png", 10, 10, "image");
-    myGamePiece.update()
+    myGamePiece = new component(50, 50,"../slimy_boi.png", 10, 10, "image");
     }
   
   var myGameArea = {
@@ -11,6 +10,13 @@ function startGame() {
       this.canvas.width = 500;
       this.canvas.height = 500;
       this.context = this.canvas.getContext("2d");
+      this.interval = setInterval(updateGame, 20);
+    },
+    clear: function () {
+      this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    },
+    stop: function() {
+      clearInterval(this.interval)
     }
   }
 
